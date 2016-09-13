@@ -25,3 +25,4 @@ exclude_paths:
 - ci/
 - guides/
 - tools/
+- activesupport/lib/active_support/cache/mem_cache_store.rb
