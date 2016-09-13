@@ -10,11 +10,18 @@ engines:
       - javascript
       - python
       - php
+  eslint:
+    enabled: true
+  fixme:
+    enabled: true
+  coffeelint:
+    enabled: true
 ratings:
   paths:
   - "**.rb"
+  - "**.coffee"
+  - "**.js"
 exclude_paths:
 - ci/
 - guides/
-- tasks/
 - tools/
