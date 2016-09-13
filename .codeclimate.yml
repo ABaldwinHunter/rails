@@ -1,13 +1,28 @@
+---
 engines:
   rubocop:
     enabled: true
-
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - ruby
+      - javascript
+      - python
+      - php
+  eslint:
+    enabled: true
+  fixme:
+    enabled: true
+  coffeelint:
+    enabled: true
 ratings:
   paths:
   - "**.rb"
-
+  - "**.coffee"
+  - "**.js"
 exclude_paths:
-  - ci/
-  - guides/
-  - tasks/
-  - tools/
+- ci/
+- guides/
+- tools/
+- activesupport/lib/active_support/cache/mem_cache_store.rb
