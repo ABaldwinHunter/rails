@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby
+
+ROOT = File.expand_path("..", __dir__)
+require File.expand_path("../tools/test", COMPONENT_ROOT)
+
+exit Minitest.run(ARGV)
+
+ROOT = File.expand_path("..", __dir__)
+require File.expand_path("../tools/test", COMPONENT_ROOT)
+
+exit Minitest.run(ARGV)
+
+
+ROOT = File.expand_path("..", __dir__)
+require File.expand_path("../tools/test", COMPONENT_ROOT)
+
+exit Minitest.run(ARGV)
+
